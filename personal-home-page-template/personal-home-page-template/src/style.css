@@ -1,0 +1,392 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #C0C0C0;
+   text-align: center;
+}
+#header{
+  display: flex;
+  align-items: center;
+  
+}
+.c-site-header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  justify-content: space-between;
+   text-align: center;
+  
+  
+}
+ .topNav{
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  
+  
+}
+ .topNav h1{
+    background-color: aqua;
+   display: flex;
+    align-item: center;
+    justify-content: space-between;
+    text-align: center;
+   margin-left: 0px 
+  }
+
+nav ul  {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 30%;
+  top: 0;
+  font-size: 26px;
+  font-weight: 600;
+  right: 0;
+  z-index: 1000;
+  justify-content: space-between;
+   text-align: center;
+
+}
+li{
+ list-style-type: none;
+   justify-content: space-between;
+  align-items: center;
+}
+.ul:hover{
+  background: #666600;
+  color: black;
+  box-shadow: 4px 4px white;
+}
+}
+section{
+  padding: 120px 14%;
+}
+.home{
+  position: relative;
+  height: 100%vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6rem;
+  align-items: center;
+  
+}
+.home-img img{
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  border-radius: 50%
+}
+.home-text h5{
+  color: blue;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 70px;
+  
+}
+.home-text h1{
+  color: #003319;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top:  20px;
+  line-height: 1;
+  
+}
+.home-text h4{
+  color: #ff007f;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 20px;
+  
+}
+.home-text h6{
+  color: green;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 25px;
+}
+  .home-text p{
+    max-width: 470px;
+  color: black;
+ font-size: 24px;
+  font-weight: 300;
+  margin-left: 45rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+.btn{
+  background: blue;
+  color: white;
+  box-shadow: 4px 4px black;
+  padding: 0 25px;
+  line-height: 42px;
+  display: inline-block;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: 0.35s;
+}
+.btn:hover{
+  background: aqua;
+  color: black;
+  box-shadow: 4px 4px black;
+}
+.about{
+  display: grid;
+  grid-template-column: repeat(2, 2fr);
+  grid-gap: 5rem;
+  align-items: center;
+}
+.about-img img{
+  max-width: 100%;
+  width: 580px;
+  height: auto;
+  margin-top: 60px;
+  border-radius: 60px;
+}
+ .about-text h3{
+  color: blue;
+   font-size: 30px;
+   font-weight: 600;
+   letter-spacing: 6px;
+   margin: 0 0 30px;
+    margin-top: 6rem;
+   margin-bottom: 0rem;
+   
+}
+.about-text h2{
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.2;
+  max-width: 470px;
+  margin-left: 45rem;
+  color: gray;
+}
+.about-text p{
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.7rem;
+  margin-bottom: 2rem;
+  color: black;
+  text-align: center;
+  word-spacing: 10px;
+  
+}
+.count{
+  margin-bottom: 2rem;
+}
+.about-text .count a{
+  color: #330066;
+  margin-right: 20px;
+  word-spacing: 5px;
+}
+.count span{
+  color: #001933;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.count span h5{
+  font-size: 20px;
+}
+.main-btn .btn{
+  margin-right: 30px;
+   background: green;
+  color: white;
+  box-shadow: 4px 4px black;
+  padding: 0 25px;
+  line-height: 42px;
+  display: inline-block;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: 0.35s;
+}
+.btn:hover{
+  background: #666600;
+  color: black;
+  box-shadow: 4px 4px white;
+}
+
+.news-vid h5{
+  color: #4C0099;
+  font-size: 26px;
+  font-weight: 300;
+  align-items: center;
+  margin-top: 5rem;
+  width: 100%;
+  
+  
+}
+.center{
+  text-align: center;
+   align-items: center;
+
+}
+.center h3{
+  color: #006666;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 6px;
+  margin-top: 5rem;
+}
+.experience-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 2rem;
+  align-items: center;
+  margin-top: 4.4rem
+}
+.row{
+  background: #0b0b13;
+  padding: 60px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .40s;
+}
+.row h3{
+  color: #990000;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.row p{
+  color: white;
+  font-size: 1.20rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+  line-height: 30px;
+
+}
+.row:hover{
+  transform: translateY(-15px);
+  box-shadow: 0px 15px 30px 0px rgb(0 0 0 /70%);
+}
+.point{
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+ 
+}
+.point h4{
+  color: #006633;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+  
+}
+.point h2{
+  color: #994C00;
+  font-size:3rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+  
+}
+.contact-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.2rem;
+}
+.contact-form form{
+  position: relative;
+  width: 550px;
+}
+form input, form textarea{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background: #0b0b13;
+  color: white;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+.form h3{
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff00ff
+}
+form input::placeholder,
+form textarea::placeholder{
+  color: white;
+}
+textarea{
+  resize: none;
+  height: 200px;
+}
+form .send-btn{
+   background: red;
+  color: white;
+  box-shadow: 4px 4px black;
+  padding: 0 25px;
+  line-height: 42px;
+  display: inline-block;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: 0.35s;
+  margin-bottom: 5rem
+}
+form .send-btn:hover{
+  background: #666600;
+  color: black;
+  box-shadow: 4px 4px white;
+}
+.news-vid{
+ position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+    
+}
+embed{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  margin-top: 8%
+}
+  
+
+.c-site-footer p {
+  color: #003319;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
